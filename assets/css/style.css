@@ -1,0 +1,212 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 1440px;
+    height: 56px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    background: #FFFFFF;
+    position: fixed;
+}
+
+.navbar-brand {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 90px;
+    height: 20px;
+    margin-left:30px;
+}
+
+.menu-button {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-button:hover {
+    color: #ddd;
+}
+
+.navbar-search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-search input {
+    width: 300px; /* Ajuste conforme necessário */
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+.search-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-button svg {
+    fill: none;
+    stroke: black;
+}
+
+.navbar-end {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    width: Hug (130px)px;
+    height: Hug (34px)px;
+    gap: 24px;
+    opacity: 0px;
+}
+
+.video-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.video-button svg {
+    fill: none;
+    stroke: black;
+}
+
+.bell-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.bell-button svg {
+    fill: none;
+    stroke: black;
+}
+
+.main{
+display: inline-flex;
+}
+
+.sidebar{
+    width: 218px;
+    height: 968px;
+    top: 56px;
+    padding: 24px 0px 0px 0px;
+    gap: 22px;
+    opacity: 0px;
+    background: #FFFFFF;
+    position: fixed;
+    display: inline-grid;
+    align-content: start;
+}
+
+.side-item{
+    margin-left: 24px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.text-inicio{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: left;
+    margin-left: 15px;    
+}
+
+.text-item{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    margin-left: 15px;  
+}
+
+.listagem{
+    width: 1222px;
+    height: 968px;
+    margin-left: 32px;
+    margin-top: 32px;
+    padding-left: 218px;
+    padding-top: 48px;
+    background: #F9F9F9;
+    display: grid;
+    grid-template-columns: 282px 282px 282px 282px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.video-description{
+    display: inline-flex;
+    padding-top: 12px;
+}
+
+.text-description{
+    width: 208px;
+    display: inline-grid;
+    margin-left: 15px;
+}
+
+.title{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.views{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    color: #515151;
+}
